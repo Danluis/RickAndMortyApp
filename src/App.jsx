@@ -1,11 +1,10 @@
-import CharacterList from "./components/CharacterList";
-
+import RoutesApp from "./routes/routes";
 export default function App(){
 
   return(
-    <div className="bg-gray-950 text-white">
-      <h1 className="text-center py-4 text-6xl">Rick and Morty</h1>
-      <CharacterList/>
+    
+    <div className="app">
+      <RoutesApp/>
     </div>
   )
 }
